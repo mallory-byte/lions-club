@@ -1,0 +1,1181 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1"><style>:root{color-scheme:light}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fulton Lions Club | Fulton, Mississippi</title>
+<meta name="description" content="The Fulton Lions Club serves Itawamba County, Mississippi. We meet the 1st and 3rd Monday of every month at 6:00 PM at 509 S. Spring Street. Visitors welcome.">
+<meta name="theme-color" content="#0A2029">
+<meta property="og:title" content="Fulton Lions Club">
+<meta property="og:description" content="We serve Fulton and Itawamba County. Meetings 1st &amp; 3rd Monday, 6:00 PM.">
+<meta property="og:type" content="website">
+
+<!--
+  ================================================================
+  FULTON LIONS CLUB — replace these before publishing
+  ================================================================
+  1. Email ............. search:  fultonmslions@example.com
+  2. Phone ............. search:  (662) 000-0000
+  3. Mailing address ... search:  PO Box 000
+  4. Officer names ..... footer, "Club officers"
+  5. Event dates ....... "Events" section, all marked TBA
+  6. Donate link ....... search:  DONATE-LINK-HERE
+  7. Facebook link ..... search:  FACEBOOK-LINK-HERE
+
+  >> 8. THE FOUR NUMBERS in the stats band are PLACEHOLDERS. <<
+        Only "24 meetings a year" is real. Search: data-count
+        Put in real figures or delete the ones you can't back up.
+
+  9. The lion crest is original artwork for this site, not the
+     Lions Clubs International emblem. The official emblem is a
+     registered trademark — download the real artwork from
+     lionsclubs.org brand resources if the club wants it used.
+
+  Meeting time and place came from the City of Fulton community
+  partners listing. Confirm before publishing.
+  ================================================================
+-->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Archivo:wght@400;500;600;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --night:#08202A;
+  --night-2:#0D2C38;
+  --teal:#14485B;
+  --gold:#E9AE2A;
+  --gold-lt:#F7D67A;
+  --brick:#A63E29;
+  --paper:#F5EFE0;
+  --paper-2:#EADFC6;
+  --ink:#1E1810;
+  --muted:#61584A;
+  --line:rgba(30,24,16,.15);
+
+  --display:'Alfa Slab One',Georgia,serif;
+  --body:'Source Serif 4',Georgia,serif;
+  --util:'Archivo',system-ui,-apple-system,sans-serif;
+
+  --wrap:1180px;
+  --pad:clamp(20px,5vw,52px);
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;background:var(--paper);color:var(--ink);
+  font-family:var(--body);font-size:20px;line-height:1.72;
+  -webkit-font-smoothing:antialiased;overflow-x:hidden;
+}
+img,svg{max-width:100%}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+
+.wrap{width:100%;max-width:var(--wrap);margin:0 auto;padding-inline:var(--pad)}
+
+.skip{position:absolute;left:-9999px;top:0;z-index:200;background:var(--gold);color:var(--night);padding:12px 18px;font-family:var(--util);font-weight:700}
+.skip:focus{left:8px;top:8px}
+
+/* ---------- bunting ---------- */
+.bunting{
+  position:fixed;top:0;left:0;right:0;z-index:60;height:6px;
+  background:repeating-linear-gradient(90deg,var(--gold) 0 22px,var(--brick) 22px 44px,var(--paper) 44px 66px);
+}
+
+/* ---------- header ---------- */
+.site-header{
+  position:fixed;top:6px;left:0;right:0;z-index:55;
+  transition:background .3s ease,box-shadow .3s ease;
+}
+.site-header.stuck{background:rgba(8,32,42,.96);backdrop-filter:blur(10px);box-shadow:0 2px 24px rgba(0,0,0,.3)}
+.header-inner{display:flex;align-items:center;gap:26px;min-height:78px}
+.brand{display:flex;align-items:center;gap:13px;text-decoration:none;margin-right:auto}
+.brand .crest{width:46px;height:46px;flex:none}
+.brand b{display:block;font-family:var(--util);font-weight:800;font-size:16.5px;letter-spacing:.01em;color:var(--paper);line-height:1.2}
+.brand em{display:block;font-family:var(--util);font-style:normal;font-size:10.5px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
+
+.site-nav{display:flex;gap:30px;font-family:var(--util);font-size:14px;font-weight:600;letter-spacing:.03em}
+.site-nav a{text-decoration:none;color:var(--paper);position:relative;padding:6px 0}
+.site-nav a::after{content:"";position:absolute;left:0;right:100%;bottom:0;height:2px;background:var(--gold);transition:right .25s ease}
+.site-nav a:hover::after{right:0}
+
+.btn{
+  display:inline-block;font-family:var(--util);font-weight:800;font-size:14px;
+  letter-spacing:.07em;text-transform:uppercase;padding:14px 26px;
+  text-decoration:none;border:2px solid transparent;cursor:pointer;
+  transition:transform .14s ease,box-shadow .14s ease,background .18s,color .18s;
+}
+.btn-gold{background:var(--gold);color:var(--night);border-color:var(--gold);box-shadow:5px 5px 0 var(--brick)}
+.btn-gold:hover{transform:translate(-2px,-2px);box-shadow:7px 7px 0 var(--brick)}
+.btn-gold:active{transform:translate(3px,3px);box-shadow:1px 1px 0 var(--brick)}
+.btn-outline{background:transparent;color:var(--paper);border-color:var(--paper)}
+.btn-outline:hover{background:var(--paper);color:var(--night);transform:translateY(-2px)}
+.btn-dark{background:var(--night);color:var(--paper);border-color:var(--night);box-shadow:5px 5px 0 var(--gold)}
+.btn-dark:hover{transform:translate(-2px,-2px);box-shadow:7px 7px 0 var(--gold)}
+.btn-dark:active{transform:translate(3px,3px);box-shadow:1px 1px 0 var(--gold)}
+.btn-sm{padding:11px 20px;font-size:13px}
+.nav-toggle{display:none}
+
+/* ---------- hero ---------- */
+.hero{
+  position:relative;background:var(--night);color:var(--paper);
+  padding:clamp(130px,17vw,190px) 0 clamp(70px,9vw,110px);
+  overflow:hidden;
+}
+.rays{
+  position:absolute;top:50%;left:72%;width:1500px;height:1500px;
+  transform:translate(-50%,-50%);pointer-events:none;
+  background:repeating-conic-gradient(from 0deg,rgba(233,174,42,.13) 0deg 4.2deg,transparent 4.2deg 12deg);
+  -webkit-mask-image:radial-gradient(circle,#000 0%,rgba(0,0,0,.5) 42%,transparent 68%);
+  mask-image:radial-gradient(circle,#000 0%,rgba(0,0,0,.5) 42%,transparent 68%);
+  animation:spin 140s linear infinite;
+}
+@keyframes spin{to{transform:translate(-50%,-50%) rotate(360deg)}}
+
+.hero-grid{position:relative;display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(36px,5vw,72px);align-items:center}
+
+.eyebrow{
+  font-family:var(--util);font-size:12px;font-weight:700;letter-spacing:.24em;
+  text-transform:uppercase;color:var(--gold);display:flex;align-items:center;gap:14px;margin:0 0 24px
+}
+.eyebrow::after{content:"";height:1px;flex:1;max-width:110px;background:rgba(233,174,42,.4)}
+
+h1{
+  font-family:var(--display);font-size:clamp(50px,9.2vw,108px);
+  line-height:.98;letter-spacing:.012em;margin:0 0 26px;color:var(--paper);
+  text-shadow:5px 5px 0 rgba(0,0,0,.35);
+}
+h1 .gold{color:var(--gold)}
+.lede{font-size:clamp(19px,2.1vw,23px);max-width:44ch;margin:0 0 34px;color:rgba(245,239,224,.82)}
+.hero-cta{display:flex;flex-wrap:wrap;gap:15px}
+
+.hero-art{position:relative;display:grid;place-items:center}
+.hero-art .crest{width:min(100%,400px);height:auto;filter:drop-shadow(0 18px 40px rgba(0,0,0,.5))}
+.crest-spin{animation:crestIn 1s cubic-bezier(.2,.8,.25,1) .35s both}
+@keyframes crestIn{from{opacity:0;transform:scale(.82) rotate(-14deg)}to{opacity:1;transform:none}}
+
+.ticket{
+  position:relative;margin:-46px 0 0 0;width:min(100%,400px);
+  background:var(--paper);color:var(--ink);padding:26px 28px 26px 38px;
+  transform:rotate(-2deg);box-shadow:10px 12px 0 rgba(0,0,0,.35);
+  border:2px solid var(--night);
+}
+.ticket::before{content:"";position:absolute;left:14px;top:12px;bottom:12px;border-left:2px dashed rgba(30,24,16,.3)}
+.ticket-label{font-family:var(--util);font-size:11px;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:var(--brick);margin:0 0 10px}
+.ticket-date{font-family:var(--display);font-size:clamp(23px,2.8vw,29px);line-height:1.22;letter-spacing:.015em;margin:0 0 4px;color:var(--teal)}
+.ticket-time{font-family:var(--util);font-size:19px;font-weight:800;margin:0 0 14px;color:var(--brick)}
+.ticket-rule{height:2px;background:var(--line);margin:0 0 14px}
+.ticket-where{font-size:17px;line-height:1.55;margin:0}
+.ticket-where strong{display:block;font-family:var(--util);font-weight:700;font-size:15px}
+.ticket-link{display:inline-block;margin-top:12px;font-family:var(--util);font-size:14px;font-weight:700;color:var(--brick);text-decoration:none;border-bottom:2px solid rgba(166,62,41,.35)}
+.ticket-link:hover{border-bottom-color:var(--brick)}
+
+/* ---------- marquee ---------- */
+.marquee{background:var(--gold);border-block:3px solid var(--night);overflow:hidden;padding:15px 0}
+.marquee-track{display:flex;width:max-content;animation:slide 38s linear infinite}
+.marquee span{
+  font-family:var(--display);font-size:clamp(19px,2.3vw,25px);color:var(--night);
+  padding:0 34px;white-space:nowrap;letter-spacing:.05em
+}
+.marquee i{font-style:normal;color:var(--brick);padding:0 4px}
+@keyframes slide{to{transform:translateX(-50%)}}
+.marquee:hover .marquee-track{animation-play-state:paused}
+
+/* ---------- sections ---------- */
+section{scroll-margin-top:96px}
+.sec{padding:clamp(64px,9vw,116px) 0}
+.band-night{background:var(--night);color:var(--paper)}
+.band-gold{background:var(--gold);color:var(--night)}
+.band-paper2{background:var(--paper-2)}
+
+.sec-head{max-width:58ch;margin:0 0 clamp(36px,4.5vw,58px)}
+.sec-head .eyebrow{color:var(--brick)}
+.sec-head .eyebrow::after{background:var(--line)}
+.band-night .sec-head .eyebrow{color:var(--gold)}
+.band-night .sec-head .eyebrow::after{background:rgba(233,174,42,.35)}
+h2{font-family:var(--display);font-size:clamp(34px,5vw,58px);line-height:1.12;letter-spacing:.015em;margin:0 0 18px;color:var(--teal)}
+.band-night h2{color:var(--paper)}
+.band-gold h2{color:var(--night)}
+.sec-head p{margin:0;font-size:20px;line-height:1.65;color:var(--muted)}
+.band-night .sec-head p{color:rgba(245,239,224,.75)}
+.band-gold .sec-head p{color:rgba(8,32,42,.8)}
+
+/* ---------- stats ---------- */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border:3px solid var(--night)}
+.stat{padding:34px 26px;border-right:3px solid var(--night)}
+.stat:last-child{border-right:0}
+.stat b{display:block;font-family:var(--display);font-size:clamp(36px,5.2vw,58px);line-height:1.1;letter-spacing:.02em;color:var(--brick)}
+.stat span{display:block;font-family:var(--util);font-size:12.5px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-top:12px}
+
+/* ---------- about ---------- */
+.about-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:clamp(34px,5vw,70px);align-items:start}
+.about-grid p{margin:0 0 20px}
+.about-grid p:last-child{margin-bottom:0}
+.pull{
+  background:var(--night);color:var(--paper);padding:36px 32px;
+  border-left:8px solid var(--gold);
+}
+.pull q{display:block;font-family:var(--display);font-size:clamp(28px,3.6vw,40px);line-height:1.18;letter-spacing:.02em;color:var(--gold);quotes:none;margin-bottom:18px}
+.pull p{margin:0;font-size:17.5px;line-height:1.65;color:rgba(245,239,224,.82)}
+
+/* ---------- service cards ---------- */
+.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:0;border:3px solid var(--gold)}
+.card{padding:clamp(30px,3.4vw,44px);border-right:3px solid var(--gold);transition:background .22s ease}
+.card:last-child{border-right:0}
+.card:hover{background:rgba(233,174,42,.1)}
+.card svg{width:38px;height:38px;margin-bottom:20px;stroke:var(--gold);fill:none;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.card h3{font-family:var(--util);font-size:23px;font-weight:800;margin:0 0 12px;color:var(--paper)}
+.card p{margin:0;font-size:17px;line-height:1.68;color:rgba(245,239,224,.8)}
+
+/* ---------- events ---------- */
+.event{
+  display:grid;grid-template-columns:118px 1fr auto;gap:30px;align-items:center;
+  padding:28px 0;border-bottom:2px solid var(--line);transition:padding-left .22s ease
+}
+.event:first-child{border-top:2px solid var(--line)}
+.event:hover{padding-left:14px}
+.event-date{background:var(--night);color:var(--paper);text-align:center;padding:14px 8px;font-family:var(--util)}
+.event-date b{display:block;font-family:var(--util);font-weight:800;font-size:23px;line-height:1.1;letter-spacing:.02em;color:var(--gold)}
+.event-date span{display:block;font-size:10.5px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;margin-top:7px;color:rgba(245,239,224,.7)}
+.event-body h3{font-family:var(--util);font-size:23px;font-weight:800;margin:0 0 6px;color:var(--teal)}
+.event-body p{margin:0;font-size:17.5px;line-height:1.6;color:var(--muted)}
+.event-tag{font-family:var(--util);font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--paper);background:var(--brick);padding:8px 14px;white-space:nowrap}
+
+/* ---------- join ---------- */
+.join-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(34px,5vw,70px);align-items:start}
+.checks{list-style:none;margin:28px 0 0;padding:0}
+.checks li{position:relative;padding-left:38px;margin-bottom:18px;font-size:18px;line-height:1.6}
+.checks li::before{content:"";position:absolute;left:0;top:9px;width:19px;height:10px;border-left:4px solid var(--brick);border-bottom:4px solid var(--brick);transform:rotate(-45deg)}
+.form-card{background:var(--paper);border:3px solid var(--night);padding:clamp(26px,3.2vw,38px);box-shadow:10px 10px 0 var(--gold)}
+.form-card h3{font-family:var(--util);font-weight:800;font-size:25px;letter-spacing:.005em;margin:0 0 8px;color:var(--teal)}
+.form-card > p{margin:0 0 24px;font-size:16.5px;color:var(--muted)}
+.field{margin-bottom:17px}
+.field label{display:block;font-family:var(--util);font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:8px}
+.field input,.field textarea{width:100%;font-family:var(--body);font-size:17px;color:var(--ink);background:#fff;border:2px solid var(--line);padding:12px 14px}
+.field input:focus,.field textarea:focus{border-color:var(--teal);outline:none}
+.field textarea{min-height:100px;resize:vertical}
+.form-note{font-family:var(--util);font-size:13.5px;color:var(--muted);margin:15px 0 0}
+
+/* ---------- give ---------- */
+.give{display:grid;grid-template-columns:repeat(3,1fr);gap:30px}
+.give-item{background:var(--night);color:var(--paper);padding:32px 28px}
+.give-item h3{font-family:var(--util);font-weight:800;font-size:23px;letter-spacing:.01em;margin:0 0 12px;color:var(--gold)}
+.give-item p{margin:0 0 18px;font-size:17.5px;line-height:1.65;color:rgba(245,239,224,.82)}
+.give-item address{font-style:normal;font-family:var(--util);font-size:16px;font-weight:600;line-height:1.55;color:var(--paper)}
+
+/* ---------- footer ---------- */
+.site-footer{background:var(--night);color:rgba(245,239,224,.8);padding:clamp(56px,7vw,84px) 0 0}
+.foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:44px;padding-bottom:48px}
+.site-footer h4{font-family:var(--util);font-size:12px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin:0 0 18px}
+.site-footer p{margin:0 0 14px;font-size:17px;line-height:1.7}
+.site-footer a{color:var(--gold-lt);text-decoration:none;border-bottom:1px solid rgba(247,214,122,.3)}
+.site-footer a:hover{border-bottom-color:var(--gold-lt)}
+.foot-crest{width:64px;height:64px;margin-bottom:18px}
+.foot-motto{font-family:var(--display);font-size:36px;letter-spacing:.02em;color:var(--paper);margin:0 0 16px;line-height:1.15}
+.foot-list{list-style:none;margin:0;padding:0;font-size:16.5px}
+.foot-list li{margin-bottom:11px}
+.foot-list span{display:block;font-family:var(--util);font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:rgba(245,239,224,.45)}
+.colophon{border-top:2px solid rgba(245,239,224,.14);padding:24px 0 34px;font-family:var(--util);font-size:13px;color:rgba(245,239,224,.5);display:flex;flex-wrap:wrap;gap:10px 28px;justify-content:space-between}
+
+
+/* ---------- eye chart ---------- */
+.chart-wrap{display:grid;grid-template-columns:1.25fr .75fr;gap:clamp(30px,4vw,56px);align-items:start}
+.chart-stage{background:#fff;border:3px solid var(--night);box-shadow:12px 12px 0 var(--brick);padding:clamp(24px,3vw,40px);text-align:center}
+.chart-step{font-family:var(--util);font-size:12px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin:0 0 6px}
+.chart-step b{color:var(--brick)}
+.chart-letters{
+  font-family:'Archivo',sans-serif;font-weight:700;color:#111;
+  margin:22px 0 30px;line-height:1;letter-spacing:.14em;
+  min-height:130px;display:flex;align-items:center;justify-content:center;
+  transition:font-size .25s ease;
+}
+.chart-controls{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+.btn-outline-dark{background:transparent;color:var(--night);border-color:var(--night)}
+.btn-outline-dark:hover{background:var(--night);color:var(--paper);transform:translateY(-2px)}
+.chart-reset{margin-top:20px;background:none;border:0;cursor:pointer;font-family:var(--util);font-size:14px;font-weight:700;color:var(--brick);text-decoration:underline;text-underline-offset:4px}
+.chart-side{padding-top:6px}
+.chart-tip{font-family:var(--util);font-size:15px;font-weight:600;color:var(--muted);margin:0 0 20px;padding-left:16px;border-left:4px solid var(--gold)}
+.chart-result{background:var(--night);color:var(--paper);padding:26px 24px;margin-bottom:20px}
+.chart-result h3{font-family:var(--util);font-weight:800;font-size:20px;margin:0 0 10px;color:var(--gold)}
+.chart-result p{margin:0 0 12px;font-size:17px;line-height:1.6;color:rgba(245,239,224,.85)}
+.chart-result p:last-child{margin-bottom:0}
+.chart-disclaimer{font-family:var(--util);font-size:13.5px;line-height:1.6;color:var(--muted);margin:0;padding-top:16px;border-top:2px solid var(--line)}
+
+/* ---------- meeting dates strip ---------- */
+.dates-strip{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 12px}
+.date-chip{font-family:var(--util);font-size:14px;font-weight:700;background:var(--paper-2);border:2px solid var(--night);padding:9px 15px;color:var(--night)}
+.date-chip.next{background:var(--gold)}
+.ics-btn{background:none;border:0;cursor:pointer;font-family:var(--util);font-size:14px;font-weight:700;color:var(--brick);text-decoration:underline;text-underline-offset:4px;padding:0}
+.ticket .ics-btn{display:block;margin-top:10px}
+
+/* ---------- interest chips ---------- */
+.chips{display:flex;flex-wrap:wrap;gap:9px}
+.chip{
+  font-family:var(--util);font-size:14px;font-weight:600;cursor:pointer;
+  background:#fff;border:2px solid var(--line);padding:9px 14px;color:var(--ink);
+  transition:background .15s,border-color .15s,color .15s;
+}
+.chip:hover{border-color:var(--teal)}
+.chip[aria-pressed="true"]{background:var(--night);border-color:var(--night);color:var(--paper)}
+
+/* ---------- amount picker ---------- */
+.amounts{display:flex;flex-wrap:wrap;gap:9px;margin:0 0 18px}
+.amt{
+  font-family:var(--util);font-size:16px;font-weight:800;cursor:pointer;
+  background:transparent;border:2px solid var(--gold);color:var(--gold);padding:10px 16px;
+  transition:background .15s,color .15s;
+}
+.amt:hover{background:rgba(233,174,42,.18)}
+.amt[aria-pressed="true"]{background:var(--gold);color:var(--night)}
+
+@media (max-width:1000px){
+  .chart-wrap{grid-template-columns:1fr}
+}
+
+
+/* ---------- photos ---------- */
+.photo{margin:0}
+.photo img{width:100%;height:auto;display:block;border:3px solid var(--night)}
+.photo figcaption{
+  font-family:var(--util);font-size:13.5px;font-weight:600;letter-spacing:.02em;
+  color:var(--muted);margin-top:12px;padding-left:14px;border-left:4px solid var(--gold)
+}
+.band-night .photo figcaption{color:rgba(245,239,224,.7)}
+.photo-wide{margin:0 0 clamp(34px,4vw,52px)}
+.photo-wide img{box-shadow:14px 14px 0 var(--gold)}
+.photo-join{margin-bottom:28px}
+.photo-join img{border-color:var(--night);box-shadow:10px 10px 0 var(--brick)}
+
+/* ---------- full-bleed photo band ---------- */
+.photoband{position:relative;min-height:clamp(300px,42vw,440px);display:grid;align-items:center;overflow:hidden;border-block:5px solid var(--gold)}
+.photoband img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 42%}
+.photoband::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(8,32,42,.9) 0%,rgba(8,32,42,.72) 45%,rgba(8,32,42,.25) 100%)}
+.photoband .wrap{position:relative;z-index:2}
+.photoband h2{color:var(--paper);margin-bottom:14px;text-shadow:4px 4px 0 rgba(0,0,0,.4)}
+.photoband p{margin:0;max-width:34ch;font-size:19px;color:rgba(245,239,224,.9)}
+@media (max-width:720px){
+  .photoband::after{background:linear-gradient(180deg,rgba(8,32,42,.62) 0%,rgba(8,32,42,.88) 70%)}
+  .photoband p{max-width:none}
+  .photo-wide img{box-shadow:8px 8px 0 var(--gold)}
+}
+
+
+/* ---------- scroll progress ---------- */
+.progress{position:fixed;top:6px;left:0;height:4px;width:0;background:var(--brick);z-index:61;transition:width .1s linear}
+
+/* ---------- countdown ---------- */
+.countdown{display:flex;gap:6px;margin:0 0 14px}
+.cd-cell{flex:1;background:var(--night);color:var(--paper);padding:9px 4px;text-align:center}
+.cd-cell b{display:block;font-family:var(--util);font-weight:800;font-size:22px;line-height:1;color:var(--gold);font-variant-numeric:tabular-nums}
+.cd-cell span{display:block;font-family:var(--util);font-size:9.5px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;margin-top:5px;color:rgba(245,239,224,.65)}
+
+/* ---------- crest tap ---------- */
+.hero-art .crest{cursor:pointer}
+.crest-roar{animation:roar .9s cubic-bezier(.3,1.4,.4,1)}
+@keyframes roar{0%{transform:none}30%{transform:scale(1.12) rotate(9deg)}60%{transform:scale(1.05) rotate(-6deg)}100%{transform:none}}
+
+/* ---------- find your fit ---------- */
+.fit{background:var(--paper);border:3px solid var(--night);box-shadow:12px 12px 0 var(--gold);padding:clamp(26px,3.4vw,42px)}
+.fit-q{font-family:var(--util);font-size:12px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--brick);margin:0 0 8px}
+.fit h3{font-family:var(--display);font-size:clamp(24px,3vw,32px);line-height:1.18;letter-spacing:.015em;margin:0 0 22px;color:var(--teal)}
+.fit-opts{display:flex;flex-direction:column;gap:11px}
+.fit-opt{
+  font-family:var(--util);font-size:17px;font-weight:600;text-align:left;cursor:pointer;
+  background:#fff;border:2px solid var(--line);padding:15px 18px;color:var(--ink);
+  transition:border-color .15s,background .15s,transform .12s;
+}
+.fit-opt:hover{border-color:var(--teal);background:var(--paper-2);transform:translateX(4px)}
+.fit-dots{display:flex;gap:7px;margin-top:24px}
+.fit-dot{width:34px;height:5px;background:var(--line)}
+.fit-dot.on{background:var(--brick)}
+.fit-result h3{color:var(--brick)}
+.fit-result p{font-size:18px;margin:0 0 20px}
+.fit-again{background:none;border:0;cursor:pointer;font-family:var(--util);font-size:14px;font-weight:700;color:var(--muted);text-decoration:underline;text-underline-offset:4px;margin-left:16px;padding:0}
+
+/* ---------- gallery ---------- */
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.gal-item{position:relative;padding:0;border:3px solid var(--night);cursor:pointer;overflow:hidden;background:var(--night);aspect-ratio:4/3}
+.gal-item img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .4s ease,opacity .3s ease}
+.gal-item:hover img,.gal-item:focus-visible img{transform:scale(1.07);opacity:.8}
+.gal-item::after{
+  content:"View";position:absolute;inset:auto 0 0 0;padding:10px;
+  font-family:var(--util);font-size:12px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--night);background:var(--gold);transform:translateY(100%);transition:transform .28s ease
+}
+.gal-item:hover::after,.gal-item:focus-visible::after{transform:none}
+
+.lightbox{position:fixed;inset:0;z-index:100;background:rgba(8,32,42,.96);display:none;place-items:center;padding:24px}
+.lightbox.open{display:grid}
+.lb-figure{margin:0;max-width:1100px;width:100%;text-align:center}
+.lb-figure img{max-width:100%;max-height:74vh;width:auto;border:3px solid var(--gold)}
+.lb-figure figcaption{font-family:var(--util);font-size:15px;color:rgba(245,239,224,.8);margin-top:16px}
+.lb-btn{
+  position:absolute;background:var(--gold);border:0;cursor:pointer;color:var(--night);
+  font-family:var(--util);font-weight:800;font-size:22px;width:52px;height:52px;line-height:1;
+}
+.lb-btn:hover{background:var(--gold-lt)}
+.lb-prev{left:16px;top:50%;transform:translateY(-50%)}
+.lb-next{right:16px;top:50%;transform:translateY(-50%)}
+.lb-close{right:16px;top:16px;font-size:26px}
+
+@media (max-width:720px){
+  .gallery{grid-template-columns:1fr}
+  .lb-prev{left:8px}.lb-next{right:8px}
+  .cd-cell b{font-size:19px}
+}
+
+
+/* ---------- ask for help ---------- */
+.help-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(32px,5vw,64px);align-items:start}
+.help-lead p{margin:0 0 20px;font-size:19px}
+.help-call{background:var(--night);color:var(--paper);padding:26px 28px;margin-top:26px}
+.help-call span{display:block;font-family:var(--util);font-size:12px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-bottom:8px}
+.help-call a{font-family:var(--display);font-size:clamp(26px,3.2vw,34px);letter-spacing:.02em;color:var(--paper);text-decoration:none;line-height:1.2}
+.help-call a:hover{color:var(--gold-lt)}
+.help-card{background:var(--paper);border:3px solid var(--brick);box-shadow:12px 12px 0 var(--brick);padding:clamp(26px,3.2vw,38px)}
+.help-card h3{font-family:var(--util);font-weight:800;font-size:24px;margin:0 0 8px;color:var(--brick)}
+.help-card > p{margin:0 0 24px;font-size:16.5px;color:var(--muted)}
+.help-private{font-family:var(--util);font-size:13.5px;line-height:1.6;color:var(--muted);margin:16px 0 0;padding-top:16px;border-top:2px solid var(--line)}
+@media (max-width:1000px){ .help-grid{grid-template-columns:1fr} }
+
+/* ---------- motion ---------- */
+.reveal{opacity:0;transform:translateY(26px);transition:opacity .65s ease,transform .65s ease}
+.reveal.in{opacity:1;transform:none}
+.hero .eyebrow,.hero h1,.hero .lede,.hero .hero-cta,.hero .ticket{opacity:0;animation:rise .8s cubic-bezier(.2,.8,.25,1) forwards}
+.hero .eyebrow{animation-delay:.08s}
+.hero h1{animation-delay:.16s}
+.hero .lede{animation-delay:.26s}
+.hero .hero-cta{animation-delay:.34s}
+.hero .ticket{animation-delay:.62s;animation-name:riseTicket}
+@keyframes rise{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:none}}
+@keyframes riseTicket{from{opacity:0;transform:translateY(28px) rotate(-8deg)}to{opacity:1;transform:rotate(-2deg)}}
+
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.001ms!important;animation-delay:0s!important;animation-iteration-count:1!important;transition-duration:.001ms!important}
+  html{scroll-behavior:auto}
+  .reveal{opacity:1;transform:none}
+  .hero .eyebrow,.hero h1,.hero .lede,.hero .hero-cta{opacity:1}
+  .hero .ticket{opacity:1;transform:rotate(-2deg)}
+  .marquee-track{animation:none}
+  .rays{animation:none}
+}
+
+/* ---------- responsive ---------- */
+@media (max-width:1000px){
+  .hero-grid,.about-grid,.join-grid{grid-template-columns:1fr}
+  .hero-art{margin-top:14px}
+  .hero-art .crest{width:min(74%,300px)}
+  .ticket{margin-top:-30px}
+  .cards,.stats{grid-template-columns:repeat(2,1fr)}
+  .card:nth-child(2){border-right:0}
+  .card:nth-child(1),.card:nth-child(2){border-bottom:3px solid var(--gold)}
+  .stat:nth-child(2){border-right:0}
+  .stat:nth-child(1),.stat:nth-child(2){border-bottom:3px solid var(--night)}
+  .give{grid-template-columns:1fr}
+  .foot-grid{grid-template-columns:1fr 1fr}
+}
+@media (max-width:720px){
+  body{font-size:19px}
+  .site-nav{
+    display:none;position:absolute;top:100%;left:0;right:0;background:var(--night);
+    flex-direction:column;gap:0;padding:6px var(--pad) 20px;border-bottom:3px solid var(--gold)
+  }
+  .site-nav.open{display:flex}
+  .site-nav a{padding:14px 0;border-bottom:1px solid rgba(245,239,224,.14);font-size:16px}
+  .nav-toggle{display:grid;place-items:center;width:46px;height:46px;background:transparent;border:2px solid var(--gold);cursor:pointer;color:var(--gold)}
+  .nav-toggle svg{width:20px;height:20px;stroke:currentColor;stroke-width:2.4;fill:none;stroke-linecap:round}
+  .header-cta{display:none}
+  .cards,.stats{grid-template-columns:1fr}
+  .card,.stat{border-right:0!important;border-bottom:3px solid var(--gold)}
+  .card:last-child{border-bottom:0}
+  .stat{border-bottom-color:var(--night)}
+  .stat:last-child{border-bottom:0}
+  .event{grid-template-columns:88px 1fr;gap:20px}
+  .event-tag{grid-column:2;justify-self:start}
+  .event-date b{font-size:21px}
+  .foot-grid{grid-template-columns:1fr;gap:34px}
+  .colophon{flex-direction:column;gap:8px}
+}
+</style>
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+<div class="bunting" aria-hidden="true"></div>
+
+<!-- reusable lion crest -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <g id="lion">
+      <path id="spikeA" d="M100 4 L106.5 34 L93.5 34 Z"/>
+      <path id="spikeB" d="M100 14 L105 36 L95 36 Z"/>
+    </g>
+  </defs>
+</svg>
+
+<header class="site-header" id="header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#top">
+      <svg class="crest" viewBox="0 0 200 200" aria-hidden="true"><use href="#crestArt"/></svg>
+      <span>
+        <b>Fulton Lions Club</b>
+        <em>Itawamba County, MS</em>
+      </span>
+    </a>
+    <nav class="site-nav" id="nav" aria-label="Main">
+      <a href="#about">About</a>
+      <a href="#service">Our work</a>
+      <a href="#events">Events</a>
+      <a href="#join">Join</a>
+      <a href="#give">Give</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="btn btn-gold btn-sm header-cta" href="#join">Join us</a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="nav" aria-label="Open menu">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="top">
+    <div class="rays" aria-hidden="true"></div>
+    <div class="wrap hero-grid">
+      <div>
+        <p class="eyebrow">Fulton, Mississippi &middot; Since 1917 worldwide</p>
+        <h1>We serve<br>the town<br><span class="gold">we live in.</span></h1>
+        <p class="lede">Neighbors who show up. The Fulton Lions Club puts hands and hours behind glasses for kids who need them, the flags on the holidays, and the everyday needs of Itawamba County.</p>
+        <div class="hero-cta">
+          <a class="btn btn-gold" href="#join">Become a member</a>
+          <a class="btn btn-outline" href="#give">Give to the club</a>
+        </div>
+      </div>
+
+      <div class="hero-art">
+        <svg class="crest crest-spin" viewBox="0 0 200 200" role="img" aria-label="Fulton Lions Club crest"><use href="#crestArt"/></svg>
+        <aside class="ticket" aria-label="Next club meeting">
+          <p class="ticket-label">Next meeting &mdash; visitors welcome</p>
+          <p class="ticket-date" id="meetingDate">First &amp; third Monday</p>
+          <p class="ticket-time">6:00 PM</p>
+          <div class="ticket-rule"></div>
+          <p class="ticket-where">
+            <strong>509 S. Spring Street</strong>
+            Fulton, MS 38843
+          </p>
+          <a class="ticket-link" href="https://www.google.com/maps/search/?api=1&amp;query=509+S+Spring+St+Fulton+MS+38843" target="_blank" rel="noopener">Get directions &rarr;</a>
+          <p class="ticket-note" style="font-family:var(--util);font-size:13.5px;color:var(--muted);margin:14px 0 0">We meet the 1st and 3rd Monday of every month. Come early, sit anywhere, no dues to visit.</p>
+          <button class="ics-btn" id="icsBtn" type="button">Add all meetings to my calendar</button>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MARQUEE ============ -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track" id="marqueeTrack">
+      <span>We&nbsp;Serve <i>&#9670;</i> Glasses&nbsp;For&nbsp;Kids <i>&#9670;</i> Flags&nbsp;On&nbsp;The&nbsp;Holidays <i>&#9670;</i> Since&nbsp;1917 <i>&#9670;</i> Fulton,&nbsp;Mississippi <i>&#9670;</i></span>
+      <span>We&nbsp;Serve <i>&#9670;</i> Glasses&nbsp;For&nbsp;Kids <i>&#9670;</i> Flags&nbsp;On&nbsp;The&nbsp;Holidays <i>&#9670;</i> Since&nbsp;1917 <i>&#9670;</i> Fulton,&nbsp;Mississippi <i>&#9670;</i></span>
+    </div>
+  </div>
+
+  <!-- ============ STATS ============ -->
+  <section class="sec" style="padding-block:clamp(48px,6vw,76px)">
+    <div class="wrap">
+      <!-- These four are sourced facts about children's vision, not club figures.
+           Sources listed under the stats. Safe to publish as-is. -->
+      <div class="stats reveal">
+        <div class="stat"><b>1 in 3</b><span>Young children with poor but correctable vision</span></div>
+        <div class="stat"><b data-count="80" data-suffix="%">0</b><span>Of a child's learning that is visual</span></div>
+        <div class="stat"><b>Age 6</b><span>When treatment odds start dropping sharply</span></div>
+        <div class="stat"><b data-count="44" data-suffix="%">0</b><span>Drop in the odds of failing a class, with glasses</span></div>
+      </div>
+      <p style="margin:20px 0 0;font-family:var(--util);font-size:13.5px;color:var(--muted)">
+        Sources: <a href="https://www.lionskidsightusa.org/what-we-do" target="_blank" rel="noopener" style="color:var(--brick);font-weight:700">Lions KidSight USA</a>
+        and <a href="https://lionsvisionservices.org/eyewear/" target="_blank" rel="noopener" style="color:var(--brick);font-weight:700">Lions Vision Services</a>.
+      </p>
+    </div>
+  </section>
+
+
+  <!-- ============ ABOUT ============ -->
+  <section class="sec band-paper2" id="about">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="eyebrow">Who we are</p>
+        <h2>A service club with a Fulton address</h2>
+      </div>
+      <div class="about-grid reveal">
+        <div>
+          <p>Lions Clubs International was founded in 1917 and has grown into one of the largest volunteer service organizations in the world. Our Fulton club is the local end of that: a group of people from Itawamba County who meet twice a month, pick projects that matter here, and get them done.</p>
+          <p>We're best known for vision &mdash; help for families who can't afford an eye exam or the glasses that follow. But the work goes wherever the need is: the flags on the holidays, and whatever the town asks us for next.</p>
+          <p>There's no special qualification for joining. If you live or work around Fulton and you want to be useful, you already meet the requirement.</p>
+        </div>
+        <div class="pull">
+          <q>We Serve.</q>
+          <p>Two words, still the whole job description. Motto of Lions Clubs International, founded 1917.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVICE ============ -->
+  <section class="sec band-night" id="service">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="eyebrow">What we do</p>
+        <h2>Two things we keep showing up for</h2>
+        <p>Every Lions club chooses its own projects. These are ours.</p>
+      </div>
+      <div class="cards reveal">
+        <article class="card">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M1.5 12S5 5.5 12 5.5 22.5 12 22.5 12 19 18.5 12 18.5 1.5 12 1.5 12Z"/><circle cx="12" cy="12" r="3.2"/></svg>
+          <h3>Glasses for kids</h3>
+          <p>Help with the exam and the frames for children whose families can't cover it. A school nurse or teacher usually points them our way.</p>
+        </article>
+        <article class="card">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 21V3"/><path d="M5 4h13l-2.5 4L18 12H5"/></svg>
+          <h3>Flags around town</h3>
+          <p>Members put the flags up on the holidays and take them back down again &mdash; the small jobs that keep Fulton looking like home.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============ EVENTS ============ -->
+  <section class="sec" id="events">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="eyebrow">Happening in Fulton</p>
+        <h2>Events &amp; fundraisers</h2>
+        <p>Every dollar raised at these stays local. Come eat, come help, or just come see what we're about.</p>
+      </div>
+
+      <!-- Events load from the Google Sheet. The three below are the fallback
+           shown if the sheet is empty or unreachable. -->
+      <div class="reveal" id="eventList">
+        <article class="event">
+          <div class="event-date"><b>TBA</b><span>Date</span></div>
+          <div class="event-body">
+            <h3>Flags out for the holiday</h3>
+            <p>Members meet early, load the truck, and set flags around town. Extra hands always welcome.</p>
+          </div>
+          <span class="event-tag">Flag crew</span>
+        </article>
+        <article class="event">
+          <div class="event-date"><b>TBA</b><span>Date</span></div>
+          <div class="event-body">
+            <h3>Club meeting</h3>
+            <p>First and third Monday, 6:00 PM, 509 S. Spring Street. Visitors welcome, no need to call ahead.</p>
+          </div>
+          <span class="event-tag">Meeting</span>
+        </article>
+      </div>
+
+      <div class="reveal" style="margin-top:44px">
+        <p class="eyebrow" style="margin-bottom:16px">Meeting nights &mdash; next six</p>
+        <div class="dates-strip" id="datesStrip"></div>
+        <button class="ics-btn" id="icsBtn2" type="button">Add them to my calendar</button>
+      </div>
+
+      <p style="margin-top:32px;font-family:var(--util);font-size:16px;color:var(--muted)">
+        Dates go up here first and on our <a href="FACEBOOK-LINK-HERE" style="color:var(--brick);font-weight:700">Facebook page</a>.
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ JOIN ============ -->
+  <section class="sec band-paper2" id="join">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="eyebrow">Membership</p>
+        <h2>Come to a meeting first</h2>
+        <p>No application needed to visit. Show up on a first or third Monday, meet everybody, decide later.</p>
+      </div>
+      <div class="join-grid reveal">
+        <div>
+          <p>Lions members are business owners, retirees, teachers, farmers, parents &mdash; people with an hour or two a month and a reason to care about this town. What you get out of it is a standing invitation to be useful.</p>
+          <ul class="checks">
+            <li>Two meetings a month, one hour each</li>
+            <li>Pick the projects that fit your schedule</li>
+            <li>Annual dues cover club, district and international membership</li>
+            <li>Sponsorship by a current member is welcome but not required &mdash; just ask</li>
+          </ul>
+        </div>
+
+        <div class="form-card">
+          <h3>Tell us you're coming</h3>
+          <p>Fill this out and we'll watch for you at the next meeting.</p>
+          <form id="joinForm">
+            <div class="field">
+              <label for="jName">Your name</label>
+              <input type="text" id="jName" name="name" autocomplete="name" required>
+            </div>
+            <div class="field">
+              <label for="jEmail">Email</label>
+              <input type="email" id="jEmail" name="email" autocomplete="email" required>
+            </div>
+            <div class="field">
+              <label for="jPhone">Phone (optional)</label>
+              <input type="tel" id="jPhone" name="phone" autocomplete="tel">
+            </div>
+            <div class="field">
+              <label>What sounds interesting? (pick any)</label>
+              <div class="chips" id="chips">
+                <button class="chip" type="button" aria-pressed="false">Helping kids get glasses</button>
+                <button class="chip" type="button" aria-pressed="false">Flag crew</button>
+                <button class="chip" type="button" aria-pressed="false">Fundraising</button>
+                <button class="chip" type="button" aria-pressed="false">Behind the scenes</button>
+                <button class="chip" type="button" aria-pressed="false">Wherever you need me</button>
+              </div>
+            </div>
+            <div class="field">
+              <label for="jMsg">Anything you want us to know</label>
+              <textarea id="jMsg" name="message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-dark" style="width:100%">Send to the club</button>
+            <p class="form-note" id="formNote">Opens your email app with the message ready to send.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- ============ GIVE ============ -->
+  <section class="sec band-gold" id="give">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="eyebrow">Support the work</p>
+        <h2>Three ways to give</h2>
+        <p>Donations to the Fulton Lions Club fund glasses for children who need them and local service projects.</p>
+      </div>
+      <div class="give reveal">
+        <div class="give-item">
+          <h3>Give online</h3>
+          <p>Fastest way to help. One-time or recurring, any amount.</p>
+          <div class="amounts" id="amounts">
+            <button class="amt" type="button" data-amt="25" aria-pressed="false">$25</button>
+            <button class="amt" type="button" data-amt="50" aria-pressed="false">$50</button>
+            <button class="amt" type="button" data-amt="100" aria-pressed="false">$100</button>
+            <button class="amt" type="button" data-amt="" aria-pressed="false">Other</button>
+          </div>
+          <a class="btn btn-gold" id="donateBtn" href="DONATE-LINK-HERE" style="box-shadow:5px 5px 0 var(--brick)">Donate now</a>
+        </div>
+        <div class="give-item">
+          <h3>Mail a check</h3>
+          <p>Make it out to Fulton Lions Club and send it to:</p>
+          <address>Fulton Lions Club<br>PO Box 000<br>Fulton, MS 38843</address>
+        </div>
+        <div class="give-item">
+          <h3>Give in person</h3>
+          <p>Bring it to a meeting, or hand it to any member. We'll get you a receipt.</p>
+          <address>509 S. Spring Street<br>1st &amp; 3rd Monday, 6:00 PM</address>
+        </div>
+      </div>
+      <p style="margin:34px 0 0;font-family:var(--util);font-size:15px;color:rgba(8,32,42,.75);max-width:70ch">
+        Ask us about tax deductibility before you give &mdash; it depends on which fund your gift goes to. We'll tell you straight.
+      </p>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer" id="contact">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <svg class="foot-crest" viewBox="0 0 200 200" aria-hidden="true"><use href="#crestArt"/></svg>
+        <p class="foot-motto">We Serve.</p>
+        <p>Fulton Lions Club<br>509 S. Spring Street<br>Fulton, MS 38843</p>
+        <p>
+          <a href="mailto:fultonmslions@example.com">fultonmslions@example.com</a><br>
+          <a href="tel:+16620000000">(662) 000-0000</a>
+        </p>
+        <p><a href="FACEBOOK-LINK-HERE">Follow us on Facebook</a></p>
+      </div>
+      <div>
+        <h4>Meetings</h4>
+        <p>1st &amp; 3rd Monday<br>6:00 PM &ndash; 7:00 PM<br>509 S. Spring Street</p>
+        <p>Visitors always welcome. <a href="#join">Let us know you're coming.</a></p>
+      </div>
+      <div>
+        <h4>Club officers</h4>
+        <!-- EDIT: real names -->
+        <ul class="foot-list">
+          <li><span>President</span>Name here</li>
+          <li><span>Secretary</span>Name here</li>
+          <li><span>Treasurer</span>Name here</li>
+          <li><span>Membership</span>Name here</li>
+        </ul>
+      </div>
+    </div>
+    <div class="colophon">
+      <span>&copy; <span id="year">2026</span> Fulton Lions Club &middot; Fulton, Mississippi</span>
+      <span>A member club of Lions Clubs International</span>
+    </div>
+  </div>
+</footer>
+
+<!-- crest artwork (defined once, reused above) -->
+<svg width="0" height="0" style="position:absolute;overflow:hidden" aria-hidden="true" focusable="false">
+  <defs>
+    <g id="crestArt">
+      <g fill="#E9AE2A">
+        <path d="M100 4 L106.5 34 L93.5 34 Z"/>
+        <path d="M100 4 L106.5 34 L93.5 34 Z" transform="rotate(22.5 100 100)"/>
+        <path d="M100 4 L106.5 34 L93.5 34 Z" transform="rotate(45 100 100)"/>
+        <path d="M100 4 L106.5 34 L93.5 34 Z" transform="rotate(67.5 100 100)"/>
+        <path d="M100 4 L106.5 34 L93.5 34 Z" transform="rotate(90 100 100)"/>
+        <path d="M100 4 L106.5 34 L93.5 34 Z" transform="rotate(112.5 100 100)"/>
+        <path d="M100 4 L106.5 34 L93.5 34 Z" transform="rotate(135 100 100)"/>
+        <path d="M100 4 L106.5 34 L93.5 34 Z" transform="rotate(157.5 100 100)"/>
+        <path d="M100 4 L106.5 34 L93.5 34 Z" transform="rotate(180 100 100)"/>
+        <path d="M100 4 L106.5 34 L93.5 34 Z" transform="rotate(202.5 100 100)"/>
+        <path d="M100 4 L106.5 34 L93.5 34 Z" transform="rotate(225 100 100)"/>
+        <path d="M100 4 L106.5 34 L93.5 34 Z" transform="rotate(247.5 100 100)"/>
+        <path d="M100 4 L106.5 34 L93.5 34 Z" transform="rotate(270 100 100)"/>
+        <path d="M100 4 L106.5 34 L93.5 34 Z" transform="rotate(292.5 100 100)"/>
+        <path d="M100 4 L106.5 34 L93.5 34 Z" transform="rotate(315 100 100)"/>
+        <path d="M100 4 L106.5 34 L93.5 34 Z" transform="rotate(337.5 100 100)"/>
+        <path d="M100 14 L105 36 L95 36 Z" transform="rotate(11.25 100 100)"/>
+        <path d="M100 14 L105 36 L95 36 Z" transform="rotate(33.75 100 100)"/>
+        <path d="M100 14 L105 36 L95 36 Z" transform="rotate(56.25 100 100)"/>
+        <path d="M100 14 L105 36 L95 36 Z" transform="rotate(78.75 100 100)"/>
+        <path d="M100 14 L105 36 L95 36 Z" transform="rotate(101.25 100 100)"/>
+        <path d="M100 14 L105 36 L95 36 Z" transform="rotate(123.75 100 100)"/>
+        <path d="M100 14 L105 36 L95 36 Z" transform="rotate(146.25 100 100)"/>
+        <path d="M100 14 L105 36 L95 36 Z" transform="rotate(168.75 100 100)"/>
+        <path d="M100 14 L105 36 L95 36 Z" transform="rotate(191.25 100 100)"/>
+        <path d="M100 14 L105 36 L95 36 Z" transform="rotate(213.75 100 100)"/>
+        <path d="M100 14 L105 36 L95 36 Z" transform="rotate(236.25 100 100)"/>
+        <path d="M100 14 L105 36 L95 36 Z" transform="rotate(258.75 100 100)"/>
+        <path d="M100 14 L105 36 L95 36 Z" transform="rotate(281.25 100 100)"/>
+        <path d="M100 14 L105 36 L95 36 Z" transform="rotate(303.75 100 100)"/>
+        <path d="M100 14 L105 36 L95 36 Z" transform="rotate(326.25 100 100)"/>
+        <path d="M100 14 L105 36 L95 36 Z" transform="rotate(348.75 100 100)"/>
+      </g>
+      <circle cx="100" cy="100" r="66" fill="#E9AE2A"/>
+      <circle cx="100" cy="100" r="59" fill="#08202A"/>
+      <circle cx="100" cy="100" r="54" fill="#E9AE2A"/>
+      <circle cx="100" cy="102" r="46" fill="#08202A"/>
+      <circle cx="68" cy="76" r="12" fill="#E9AE2A"/>
+      <circle cx="132" cy="76" r="12" fill="#E9AE2A"/>
+      <circle cx="68" cy="76" r="5" fill="#08202A"/>
+      <circle cx="132" cy="76" r="5" fill="#08202A"/>
+      <path d="M74 92 L94 99 L92 106 L73 99 Z" fill="#E9AE2A"/>
+      <path d="M126 92 L106 99 L108 106 L127 99 Z" fill="#E9AE2A"/>
+      <circle cx="84" cy="108" r="4.5" fill="#E9AE2A"/>
+      <circle cx="116" cy="108" r="4.5" fill="#E9AE2A"/>
+      <ellipse cx="100" cy="128" rx="25" ry="16" fill="#E9AE2A"/>
+      <path d="M100 114 L111 123 L100 131 L89 123 Z" fill="#08202A"/>
+      <path d="M100 131 L100 137" stroke="#08202A" stroke-width="3.5" stroke-linecap="round"/>
+      <path d="M100 137 Q93 141 89 135" stroke="#08202A" stroke-width="3.2" fill="none" stroke-linecap="round"/>
+      <path d="M100 137 Q107 141 111 135" stroke="#08202A" stroke-width="3.2" fill="none" stroke-linecap="round"/>
+    </g>
+  </defs>
+</svg>
+
+<script>
+(function(){
+  "use strict";
+
+  /* ================= SETTINGS =================
+     Paste the published Google Sheet CSV link between the quotes below.
+     Leave it empty and the page uses the events typed into the HTML instead.
+     ============================================ */
+  var EVENTS_CSV = '';
+
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  /* ---- next meeting: 1st & 3rd Monday, 6:00 PM ---- */
+  function nthMonday(y, m, n){
+    var first = new Date(y, m, 1);
+    var offset = (1 - first.getDay() + 7) % 7;
+    return new Date(y, m, 1 + offset + (n - 1) * 7, 18, 0, 0);
+  }
+  try {
+    var now = new Date(), Y = now.getFullYear(), M = now.getMonth();
+    var list = [nthMonday(Y,M,1), nthMonday(Y,M,3), nthMonday(Y,M+1,1), nthMonday(Y,M+1,3)];
+    for (var i=0;i<list.length;i++){
+      if (list[i].getTime() + 3600000 > now.getTime()){
+        document.getElementById('meetingDate').textContent =
+          list[i].toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric'});
+        break;
+      }
+    }
+  } catch(e){}
+
+  /* ---- sticky header ---- */
+  var header = document.getElementById('header');
+  function onScroll(){ header.classList.toggle('stuck', window.scrollY > 40); }
+  onScroll();
+  window.addEventListener('scroll', onScroll, {passive:true});
+
+  /* ---- mobile nav ---- */
+  var toggle = document.getElementById('navToggle'), nav = document.getElementById('nav');
+  toggle.addEventListener('click', function(){
+    var open = nav.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', String(open));
+    toggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+  });
+  nav.addEventListener('click', function(e){
+    if (e.target.tagName === 'A'){ nav.classList.remove('open'); toggle.setAttribute('aria-expanded','false'); }
+  });
+
+  /* ---- join form -> mailto ---- */
+  var form = document.getElementById('joinForm'), note = document.getElementById('formNote');
+  var CLUB_EMAIL = 'fultonmslions@example.com';   // EDIT
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    var n = form.name.value.trim(), em = form.email.value.trim(),
+        ph = form.phone.value.trim(), ms = form.message.value.trim();
+    var picks = chosenInterests();
+    var body = 'Name: ' + n + '\nEmail: ' + em +
+      (ph ? '\nPhone: ' + ph : '') +
+      (picks.length ? '\nInterested in: ' + picks.join(', ') : '') +
+      (ms ? '\n\n' + ms : '') +
+      '\n\nSent from the Fulton Lions Club website.';
+    window.location.href = 'mailto:' + CLUB_EMAIL +
+      '?subject=' + encodeURIComponent('Visiting a meeting \u2014 ' + n) +
+      '&body=' + encodeURIComponent(body);
+    note.textContent = "Your email app should be opening. If it didn't, email us at " + CLUB_EMAIL + ".";
+  });
+
+  /* ---- count-up stats ---- */
+  function countUp(el){
+    var target = parseInt(el.getAttribute('data-count'), 10);
+    var suffix = el.getAttribute('data-suffix') || '';
+    if (reduce){ el.textContent = target.toLocaleString() + suffix; return; }
+    var start = null, dur = 1400;
+    function step(ts){
+      if (!start) start = ts;
+      var p = Math.min((ts - start) / dur, 1);
+      var eased = 1 - Math.pow(1 - p, 3);
+      el.textContent = Math.round(target * eased).toLocaleString() + (p === 1 ? suffix : '');
+      if (p < 1) requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
+  }
+
+
+  /* ---- upcoming meetings ---- */
+  function upcoming(count){
+    var out=[], now=new Date(), y=now.getFullYear(), m=now.getMonth(), i=0;
+    while(out.length<count && i<24){
+      [1,3].forEach(function(n){
+        if(out.length>=count) return;
+        var d=nthMonday(y,m+i,n);
+        if(d.getTime()+3600000>now.getTime()) out.push(d);
+      });
+      i++;
+    }
+    return out;
+  }
+
+  /* ---- meeting date chips ---- */
+  var strip=document.getElementById('datesStrip');
+  if(strip){
+    upcoming(6).forEach(function(d,idx){
+      var el=document.createElement('span');
+      el.className='date-chip'+(idx===0?' next':'');
+      el.textContent=d.toLocaleDateString('en-US',{month:'short',day:'numeric'});
+      strip.appendChild(el);
+    });
+  }
+
+  /* ---- add to calendar (.ics, recurring 1st & 3rd Monday) ---- */
+  function pad(n){ return (n<10?'0':'')+n; }
+  function icsDate(d){
+    return d.getFullYear()+pad(d.getMonth()+1)+pad(d.getDate())+'T'+
+           pad(d.getHours())+pad(d.getMinutes())+'00';
+  }
+  function downloadICS(){
+    var first=upcoming(1)[0];
+    if(!first) return;
+    var end=new Date(first.getTime()+3600000);
+    var stamp=new Date().toISOString().replace(/[-:]/g,'').split('.')[0]+'Z';
+    var lines=[
+      'BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Fulton Lions Club//Meetings//EN',
+      'CALSCALE:GREGORIAN','METHOD:PUBLISH','BEGIN:VEVENT',
+      'UID:fulton-lions-'+first.getTime()+'@fultonlions',
+      'DTSTAMP:'+stamp,
+      'DTSTART;TZID=America/Chicago:'+icsDate(first),
+      'DTEND;TZID=America/Chicago:'+icsDate(end),
+      'RRULE:FREQ=MONTHLY;BYDAY=1MO,3MO',
+      'SUMMARY:Fulton Lions Club meeting',
+      'LOCATION:509 S. Spring Street\\, Fulton\\, MS 38843',
+      'DESCRIPTION:First and third Monday of every month. Visitors welcome.',
+      'END:VEVENT','END:VCALENDAR'
+    ];
+    var blob=new Blob([lines.join('\r\n')],{type:'text/calendar;charset=utf-8'});
+    var url=URL.createObjectURL(blob);
+    var a=document.createElement('a');
+    a.href=url; a.download='fulton-lions-meetings.ics';
+    document.body.appendChild(a); a.click(); document.body.removeChild(a);
+    setTimeout(function(){ URL.revokeObjectURL(url); },1200);
+  }
+  ['icsBtn','icsBtn2'].forEach(function(id){
+    var b=document.getElementById(id);
+    if(b) b.addEventListener('click', downloadICS);
+  });
+
+  /* ---- interest chips ---- */
+  var chipBox=document.getElementById('chips');
+  if(chipBox){
+    chipBox.addEventListener('click',function(e){
+      var c=e.target.closest('.chip'); if(!c) return;
+      c.setAttribute('aria-pressed', c.getAttribute('aria-pressed')==='true'?'false':'true');
+    });
+  }
+  function chosenInterests(){
+    if(!chipBox) return [];
+    return Array.prototype.slice.call(chipBox.querySelectorAll('[aria-pressed="true"]'))
+      .map(function(c){ return c.textContent.trim(); });
+  }
+
+  /* ---- donation amount ---- */
+  var amtBox=document.getElementById('amounts'), donateBtn=document.getElementById('donateBtn');
+  if(amtBox && donateBtn){
+    var baseHref=donateBtn.getAttribute('href');
+    amtBox.addEventListener('click',function(e){
+      var b=e.target.closest('.amt'); if(!b) return;
+      var on=b.getAttribute('aria-pressed')==='true';
+      amtBox.querySelectorAll('.amt').forEach(function(x){ x.setAttribute('aria-pressed','false'); });
+      if(on){
+        donateBtn.textContent='Donate now';
+        donateBtn.setAttribute('href', baseHref);
+        return;
+      }
+      b.setAttribute('aria-pressed','true');
+      var v=b.getAttribute('data-amt');
+      donateBtn.textContent = v ? ('Donate $'+v) : 'Choose an amount';
+      // Most giving platforms accept ?amount= — adjust if yours differs.
+      donateBtn.setAttribute('href', v ? baseHref+'?amount='+v : baseHref);
+    });
+  }
+
+
+  /* ---- events from Google Sheet ---- */
+  function parseCSV(text){
+    var rows=[], row=[], val='', q=false;
+    for(var i=0;i<text.length;i++){
+      var c=text[i];
+      if(q){
+        if(c==='"'){ if(text[i+1]==='"'){ val+='"'; i++; } else q=false; }
+        else val+=c;
+      } else if(c==='"'){ q=true; }
+      else if(c===','){ row.push(val); val=''; }
+      else if(c==='\n'){ row.push(val); rows.push(row); row=[]; val=''; }
+      else if(c!=='\r'){ val+=c; }
+    }
+    if(val!=='' || row.length){ row.push(val); rows.push(row); }
+    return rows.filter(function(r){ return r.join('').trim()!==''; });
+  }
+
+  function parseDate(str){
+    str=(str||'').trim();
+    var m=str.match(/^(\d{4})-(\d{1,2})-(\d{1,2})/);
+    if(m) return new Date(+m[1], +m[2]-1, +m[3]);
+    m=str.match(/^(\d{1,2})[\/\-](\d{1,2})[\/\-](\d{4})/);
+    if(m) return new Date(+m[3], +m[1]-1, +m[2]);
+    var d=new Date(str);
+    return isNaN(d.getTime()) ? null : new Date(d.getFullYear(), d.getMonth(), d.getDate());
+  }
+
+  function esc(t){
+    return String(t||'').replace(/[&<>"']/g, function(c){
+      return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];
+    });
+  }
+
+  function renderEvents(items){
+    var box=document.getElementById('eventList');
+    if(!box) return;
+    if(!items.length){
+      box.innerHTML='<p style="font-family:var(--util);font-size:18px;color:var(--muted);'+
+        'padding:30px 0;border-top:2px solid var(--line);border-bottom:2px solid var(--line)">'+
+        'Nothing on the calendar just yet. Come to a meeting and you\u2019ll hear about the next one first.</p>';
+      return;
+    }
+    box.innerHTML = items.map(function(ev){
+      var mon=ev.date.toLocaleDateString('en-US',{month:'short'}).toUpperCase();
+      var day=ev.date.getDate();
+      return '<article class="event">'+
+        '<div class="event-date"><b>'+day+'</b><span>'+mon+'</span></div>'+
+        '<div class="event-body"><h3>'+esc(ev.title)+'</h3>'+
+        (ev.desc?'<p>'+esc(ev.desc)+'</p>':'')+'</div>'+
+        (ev.tag?'<span class="event-tag">'+esc(ev.tag)+'</span>':'')+
+      '</article>';
+    }).join('');
+  }
+
+  if(EVENTS_CSV){
+    fetch(EVENTS_CSV, {cache:'no-store'})
+      .then(function(r){ if(!r.ok) throw new Error('sheet unreachable'); return r.text(); })
+      .then(function(txt){
+        var rows=parseCSV(txt);
+        if(rows.length<2) return;                 // header only — keep fallback
+        var head=rows[0].map(function(h){ return h.trim().toLowerCase(); });
+        function col(){ 
+          for(var i=0;i<arguments.length;i++){
+            var k=head.indexOf(arguments[i]);
+            if(k>-1) return k;
+          }
+          return -1;
+        }
+        var iDate=col('date','event date','when'),
+            iTitle=col('title','event','name','what'),
+            iDesc=col('description','details','notes'),
+            iTag=col('tag','type','category');
+        if(iDate<0 || iTitle<0) return;           // wrong columns — keep fallback
+
+        var today=new Date(); today.setHours(0,0,0,0);
+        var items=rows.slice(1).map(function(r){
+          return {
+            date: parseDate(r[iDate]),
+            title:(r[iTitle]||'').trim(),
+            desc: iDesc>-1 ? (r[iDesc]||'').trim() : '',
+            tag:  iTag>-1  ? (r[iTag]||'').trim()  : ''
+          };
+        }).filter(function(e){
+          return e.date && e.title && e.date.getTime() >= today.getTime();
+        }).sort(function(a,b){ return a.date - b.date; }).slice(0,8);
+
+        renderEvents(items);
+      })
+      .catch(function(){ /* leave the hardcoded events in place */ });
+  }
+
+
+  /* ---- scroll reveal ---- */
+  var items = document.querySelectorAll('.reveal');
+  if (reduce || !('IntersectionObserver' in window)){
+    items.forEach(function(el){ el.classList.add('in'); });
+    document.querySelectorAll('[data-count]').forEach(countUp);
+  } else {
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if (!en.isIntersecting) return;
+        en.target.classList.add('in');
+        en.target.querySelectorAll('[data-count]').forEach(countUp);
+        io.unobserve(en.target);
+      });
+    }, {threshold:.15, rootMargin:'0px 0px -6% 0px'});
+    items.forEach(function(el){ io.observe(el); });
+  }
+})();
+</script>
+</body>
+</html>
+
+</body></html>
